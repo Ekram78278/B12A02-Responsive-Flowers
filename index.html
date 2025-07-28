@@ -290,8 +290,71 @@
 </div>
    
   </section> 
+ 
     </main>
-
-    <footer></footer>
+     
+<footer>
+ <section class="sm:mt-[2800px]">
+  <div class="relative w-full h-[533px] overflow-x-hidden">
+    <img 
+      src="/assets/news-letter-bg.png" 
+      alt=""
+      class="absolute inset-0 w-screen h-full object-cover object-left"
+      style="left: 50%; transform: translateX(-50%);"
+    >
+    <div class="relative z-10 h-full grid place-items-center"> 
+      <div class="text-center space-y-4 sm:space-y-6"> 
+        <h1 class="text-white text-4xl font-bold px-4">Join the colorful Bunch</h1>
+        <form action="/subscribe" method="POST" class="flex justify-center">
+          <input 
+            type="email" 
+            name="email" 
+            placeholder="Enter your email" 
+            required
+            aria-label="Email address"
+            class="px-4 py-2 border bg-amber-50 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:w-[644px] sm:h-[50px]"
+          >
+          <button 
+            type="submit" 
+            class="px-6 py-2 bg-orange-500 text-white hover:bg-orange-700 transition-colors sm:w-[186px] sm:h-[50px]"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sm:flex sm:mt-10 mt-5.5 sm:gap-45 ml-4.5 ">
+  <div class="sm:ml-[160px] sm:mt-[50px] sm:w-[309px] sm:h-[179px]">
+    <img src="/assets/logo.png" alt="">
+    <p class="text-gray-400 text-left"> Indulge Your senses with the beauty  and fragrance of our fresh flowers shop </p>
+  </div>
+  <div class="sm:mt-3.5 mt-7">
+    <ul class="space-y-5 text-gray-400">
+      <li>Home</li>
+      <li>About us</li>
+      <li>Blog</li>
+      <li>FAQ</li>
+      <li>Contact Us</li>
+    </ul>
+  </div>
+   <div class="sm:mt-3.5 mt-7">
+    <ul class="space-y-5 text-gray-400">
+      <li>Features</li>
+      <li>Pricing</li>
+      <li>Privacy Policy</li>
+      <li>Terms of Services</li>
+      <li>Help Center</li>
+    </ul>
+  </div>
+  <div class="flex gap-6.5 mt-3 mb-6">
+    <img src="/assets/icon-linkedin.png" alt="" class="sm:w-[36px] sm:h-[36px]">
+    <img src="/assets/icon-twitter.png" alt="" class="sm:w-[22px] sm:h-[22px] sm:mt-2.5">
+    <img src="/assets/icon-facebook.png" alt="" class="sm:w-[36px] sm:h-[36px]">
+    <img src="/assets/icon-youtube.png" alt="" class="sm:w-[36px] sm:h-[36px]">
+  </div>
+</section>
+</footer>
   </body>
 </html>
