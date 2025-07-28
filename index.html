@@ -1,30 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+
     <title>Flower Website</title>
-    
-</head>
-<body>
-<header>
-<navbar>
-   <div class="ml-5 mt-8 sm:ml-70">
-    <img  src="/assets/logo.png" alt="" class=" w-[68px] h-[38px] sm:w-24 sm:h-12  lg:w-40 lg:h-20 xl:w-48 xl:h-24 object-contain">
-    </div>
-    
-</navbar>
-</header>
+  </head>
+  <body>
+    <header>
+      <navbar class="flex sm:gap-[780px]">
+        <div class="mt-8 items-center sm:ml-70">
+          <img
+            src="/assets/logo.png"
+            alt=""
+            class="w-[73px] h-[38px] ml-[22px] sm:w-[135px] sm:h-[82px] sm:mt-1.5"
+          />
+        </div>
+        <div class="sm:mt-20">
+          <ul class="sm:text-[20px] sm:flex sm:gap-x-14 flex mt-11 sm:mt-0">
+            <li class="sm:block hidden">
+              <span class="sm:font-bold">Home</span>
+            </li>
+            <li class="sm:block hidden">
+              <span class="sm:text-gray-500">Shop</span>
+            </li>
+            <li class="sm:block hidden">
+              <span class="sm:text-gray-500">About us</span>
+            </li>
+            <div class="flex gap-2 sm:ml-[14px] ml-[280px]">
+              <img src="/assets/shopping-cart_optimized.png" alt="" />
+              <li>Cart ($56)</li>
+            </div>
+          </ul>
+        </div>
+      </navbar>
+      <!-- Cover Section -->
+      <section
+        class="sm:ml-[100px] sm:mr-[100px] flex flex-col-reverse md:flex-row items-center px-4 md:px-[100px] mt-[30px] md:mt-36 gap-y-1.5"
+      >
+        <div class="mt-[2px] ml-[50px] mr-[150px] sm:w-[490px]">
+          <h1
+            class="font-[Noto_Serif] w-[361px] h-[px] text-[34px] font-bold sm:text-[64px] sm:w-[570px] sm:h-[178px]"
+          >
+            <span>ALWAYS</span>
+            <span class="text-#e9 text-orange-400 sm:text-orange-400"
+              >FRESH<br />FLOWERS</span
+            >
+          </h1>
+          <p class="text-gray-400 font-sans w-[]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop.From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion
+          </p>
+        </div>
+        <div class="sm:ml-[200px]">
+          <img
+            class="sm:w-[790px] sm:h-[330px]"
+            src="/assets/hero-flower.png"
+            alt=""
+          />
+        </div>
+      </section>
+    </header>
 
-<main>
+    <main></main>
 
-</main>
-
-<footer>
-
-</footer>
-    
-</body>
+    <footer></footer>
+  </body>
 </html>
+
